@@ -1,7 +1,0 @@
-<linker>
-	<assembly fullname="Assembly-CSharp">
-		<type fullname="menu_demo_script">
-			<method name="startVRSample"/>
-		</type>
-	</assembly>
-</linker>
