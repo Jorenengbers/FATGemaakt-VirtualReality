@@ -15,6 +15,6 @@ public class menu_demo_script : MonoBehaviour {
 	}
 
 	public void startVRSample(){
-		Application.LoadLevel("GVRDemo");
+		Application.LoadLevel("");
 	}
 }
