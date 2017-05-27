@@ -22,13 +22,13 @@ public class GyroMovement : MonoBehaviour
 		ApplyCalibration();
 	}
 
-	void OnGUI()
-	{
-		if( GUILayout.Button( "Calibrate", GUILayout.Width( 300 ), GUILayout.Height( 100 ) ) )
-		{
-			CalibrateYAngle();
-		}
-	}
+//	void OnGUI()
+//	{
+//		if( GUILayout.Button( "Calibrate", GUILayout.Width( 300 ), GUILayout.Height( 100 ) ) )
+//		{
+//			CalibrateYAngle();
+//		}
+//	}
 
 	public void CalibrateYAngle()
 	{

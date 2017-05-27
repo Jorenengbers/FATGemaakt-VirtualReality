@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VR;
 
-public class VR : MonoBehaviour {
+public class Sonar : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Screen.orientation = ScreenOrientation.LandscapeLeft;
+		Screen.orientation = ScreenOrientation.Portrait;
+
 	}
 	
 	// Update is called once per frame
@@ -15,8 +16,11 @@ public class VR : MonoBehaviour {
 		
 	}
 
-	public void openSonar(){
-		Application.LoadLevel("2D-Sonar-demo");
+	public void openVR(){
+		Application.LoadLevel("VR-interface-demo");
 	}
+
+
+
 
 }
