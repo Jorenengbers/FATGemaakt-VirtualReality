@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 426ae69603529402fbecf0d50935ba40
+timeCreated: 1496395006
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: dak
+    100002: dakpannen
+    100004: dakpannen1
+    100006: dakpannen2
+    100008: dakpannen3
+    100010: gebouw
+    100012: group2
+    100014: group6_pCube53
+    100016: group6_pCube53 1
+    100018: group6_pCube53 2
+    100020: group6_pCube53 3
+    100022: group7_pCube53
+    100024: group7_pCube53 1
+    100026: group7_pCube53 2
+    100028: group7_pCube53 3
+    100030: group8_pCube53
+    100032: group8_pCube53 1
+    100034: group8_pCube53 2
+    100036: group8_pCube53 3
+    100038: group8_pCube54
+    100040: group8_pCube54 1
+    100042: group8_pCube54 2
+    100044: group8_pCube54 3
+    100046: group8_pCube55
+    100048: group8_pCube55 1
+    100050: group8_pCube55 2
+    100052: group8_pCube55 3
+    100054: group8_pCube56
+    100056: group8_pCube56 1
+    100058: group8_pCube56 2
+    100060: group8_pCube56 3
+    100062: group8_pCube57
+    100064: group8_pCube57 1
+    100066: group8_pCube57 2
+    100068: group8_pCube57 3
+    100070: group8_pCube58
+    100072: group8_pCube58 1
+    100074: group8_pCube58 2
+    100076: group8_pCube58 3
+    100078: group8_pCube59
+    100080: group8_pCube59 1
+    100082: group8_pCube59 2
+    100084: group8_pCube59 3
+    100086: group8_pCube60
+    100088: group8_pCube60 1
+    100090: group8_pCube60 2
+    100092: group8_pCube60 3
+    100094: group8_pCube61
+    100096: group8_pCube61 1
+    100098: group8_pCube61 2
+    100100: group8_pCube61 3
+    100102: group8_pCube62
+    100104: group8_pCube62 1
+    100106: group8_pCube62 2
+    100108: group8_pCube62 3
+    100110: group8_pCube63
+    100112: pCube23
+    100114: pCube23 1
+    100116: pCube39
+    100118: pCube39 1
+    100120: pCube4
+    100122: pCube5
+    100124: pCube6
+    100126: pCube6 1
+    100128: pCylinder1
+    100130: pCylinder2
+    100132: polySurface4
+    100134: polySurface5
+    100136: polySurface6
+    100138: polySurface8
+    100140: poort1
+    100142: poort2
+    100144: pSphere2
+    100146: pSphere3
+    100148: //RootNode
+    400000: dak
+    400002: dakpannen
+    400004: dakpannen1
+    400006: dakpannen2
+    400008: dakpannen3
+    400010: gebouw
+    400012: group2
+    400014: group6_pCube53
+    400016: group6_pCube53 1
+    400018: group6_pCube53 2
+    400020: group6_pCube53 3
+    400022: group7_pCube53
+    400024: group7_pCube53 1
+    400026: group7_pCube53 2
+    400028: group7_pCube53 3
+    400030: group8_pCube53
+    400032: group8_pCube53 1
+    400034: group8_pCube53 2
+    400036: group8_pCube53 3
+    400038: group8_pCube54
+    400040: group8_pCube54 1
+    400042: group8_pCube54 2
+    400044: group8_pCube54 3
+    400046: group8_pCube55
+    400048: group8_pCube55 1
+    400050: group8_pCube55 2
+    400052: group8_pCube55 3
+    400054: group8_pCube56
+    400056: group8_pCube56 1
+    400058: group8_pCube56 2
+    400060: group8_pCube56 3
+    400062: group8_pCube57
+    400064: group8_pCube57 1
+    400066: group8_pCube57 2
+    400068: group8_pCube57 3
+    400070: group8_pCube58
+    400072: group8_pCube58 1
+    400074: group8_pCube58 2
+    400076: group8_pCube58 3
+    400078: group8_pCube59
+    400080: group8_pCube59 1
+    400082: group8_pCube59 2
+    400084: group8_pCube59 3
+    400086: group8_pCube60
+    400088: group8_pCube60 1
+    400090: group8_pCube60 2
+    400092: group8_pCube60 3
+    400094: group8_pCube61
+    400096: group8_pCube61 1
+    400098: group8_pCube61 2
+    400100: group8_pCube61 3
+    400102: group8_pCube62
+    400104: group8_pCube62 1
+    400106: group8_pCube62 2
+    400108: group8_pCube62 3
+    400110: group8_pCube63
+    400112: pCube23
+    400114: pCube23 1
+    400116: pCube39
+    400118: pCube39 1
+    400120: pCube4
+    400122: pCube5
+    400124: pCube6
+    400126: pCube6 1
+    400128: pCylinder1
+    400130: pCylinder2
+    400132: polySurface4
+    400134: polySurface5
+    400136: polySurface6
+    400138: polySurface8
+    400140: poort1
+    400142: poort2
+    400144: pSphere2
+    400146: pSphere3
+    400148: //RootNode
+    2300000: group6_pCube53
+    2300002: group6_pCube53 1
+    2300004: group6_pCube53 2
+    2300006: group6_pCube53 3
+    2300008: group7_pCube53
+    2300010: group7_pCube53 1
+    2300012: group7_pCube53 2
+    2300014: group7_pCube53 3
+    2300016: group8_pCube53
+    2300018: group8_pCube53 1
+    2300020: group8_pCube53 2
+    2300022: group8_pCube53 3
+    2300024: group8_pCube54
+    2300026: group8_pCube54 1
+    2300028: group8_pCube54 2
+    2300030: group8_pCube54 3
+    2300032: group8_pCube55
+    2300034: group8_pCube55 1
+    2300036: group8_pCube55 2
+    2300038: group8_pCube55 3
+    2300040: group8_pCube56
+    2300042: group8_pCube56 1
+    2300044: group8_pCube56 2
+    2300046: group8_pCube56 3
+    2300048: group8_pCube57
+    2300050: group8_pCube57 1
+    2300052: group8_pCube57 2
+    2300054: group8_pCube57 3
+    2300056: group8_pCube58
+    2300058: group8_pCube58 1
+    2300060: group8_pCube58 2
+    2300062: group8_pCube59
+    2300064: group8_pCube59 1
+    2300066: group8_pCube59 2
+    2300068: group8_pCube59 3
+    2300070: group8_pCube60
+    2300072: group8_pCube60 1
+    2300074: group8_pCube60 2
+    2300076: group8_pCube60 3
+    2300078: group8_pCube61
+    2300080: group8_pCube61 1
+    2300082: group8_pCube61 2
+    2300084: group8_pCube61 3
+    2300086: group8_pCube62
+    2300088: group8_pCube62 1
+    2300090: group8_pCube62 2
+    2300092: group8_pCube62 3
+    2300094: group8_pCube63
+    2300096: pCube23
+    2300098: pCube23 1
+    2300100: pCube39
+    2300102: pCube39 1
+    2300104: pCube4
+    2300106: pCube5
+    2300108: pCube6
+    2300110: pCube6 1
+    2300112: pCylinder1
+    2300114: pCylinder2
+    2300116: polySurface5
+    2300118: polySurface6
+    2300120: polySurface8
+    2300122: pSphere2
+    2300124: pSphere3
+    3300000: group6_pCube53
+    3300002: group6_pCube53 1
+    3300004: group6_pCube53 2
+    3300006: group6_pCube53 3
+    3300008: group7_pCube53
+    3300010: group7_pCube53 1
+    3300012: group7_pCube53 2
+    3300014: group7_pCube53 3
+    3300016: group8_pCube53
+    3300018: group8_pCube53 1
+    3300020: group8_pCube53 2
+    3300022: group8_pCube53 3
+    3300024: group8_pCube54
+    3300026: group8_pCube54 1
+    3300028: group8_pCube54 2
+    3300030: group8_pCube54 3
+    3300032: group8_pCube55
+    3300034: group8_pCube55 1
+    3300036: group8_pCube55 2
+    3300038: group8_pCube55 3
+    3300040: group8_pCube56
+    3300042: group8_pCube56 1
+    3300044: group8_pCube56 2
+    3300046: group8_pCube56 3
+    3300048: group8_pCube57
+    3300050: group8_pCube57 1
+    3300052: group8_pCube57 2
+    3300054: group8_pCube57 3
+    3300056: group8_pCube58
+    3300058: group8_pCube58 1
+    3300060: group8_pCube58 2
+    3300062: group8_pCube59
+    3300064: group8_pCube59 1
+    3300066: group8_pCube59 2
+    3300068: group8_pCube59 3
+    3300070: group8_pCube60
+    3300072: group8_pCube60 1
+    3300074: group8_pCube60 2
+    3300076: group8_pCube60 3
+    3300078: group8_pCube61
+    3300080: group8_pCube61 1
+    3300082: group8_pCube61 2
+    3300084: group8_pCube61 3
+    3300086: group8_pCube62
+    3300088: group8_pCube62 1
+    3300090: group8_pCube62 2
+    3300092: group8_pCube62 3
+    3300094: group8_pCube63
+    3300096: pCube23
+    3300098: pCube23 1
+    3300100: pCube39
+    3300102: pCube39 1
+    3300104: pCube4
+    3300106: pCube5
+    3300108: pCube6
+    3300110: pCube6 1
+    3300112: pCylinder1
+    3300114: pCylinder2
+    3300116: polySurface5
+    3300118: polySurface6
+    3300120: polySurface8
+    3300122: pSphere2
+    3300124: pSphere3
+    4300000: polySurface5
+    4300002: polySurface6
+    4300004: pCube4
+    4300006: pSphere2
+    4300008: pCube5
+    4300010: pSphere3
+    4300012: pCylinder1
+    4300014: pCylinder2
+    4300016: pCube23
+    4300018: pCube39
+    4300020: pCube6
+    4300022: pCube23
+    4300024: pCube39
+    4300026: pCube6
+    4300028: group8_pCube62
+    4300030: group8_pCube61
+    4300032: group8_pCube60
+    4300034: group8_pCube59
+    4300036: polySurface8
+    4300038: group8_pCube57
+    4300040: group8_pCube56
+    4300042: group8_pCube55
+    4300044: group8_pCube54
+    4300046: group8_pCube53
+    4300048: group7_pCube53
+    4300050: group6_pCube53
+    4300052: group8_pCube63
+    4300054: group8_pCube62
+    4300056: group8_pCube61
+    4300058: group8_pCube60
+    4300060: group8_pCube59
+    4300062: group8_pCube58
+    4300064: group8_pCube57
+    4300066: group8_pCube56
+    4300068: group8_pCube55
+    4300070: group8_pCube54
+    4300072: group8_pCube53
+    4300074: group7_pCube53
+    4300076: group6_pCube53
+    4300078: group8_pCube62
+    4300080: group8_pCube61
+    4300082: group8_pCube60
+    4300084: group8_pCube59
+    4300086: group8_pCube58
+    4300088: group8_pCube57
+    4300090: group8_pCube56
+    4300092: group8_pCube55
+    4300094: group8_pCube54
+    4300096: group8_pCube53
+    4300098: group7_pCube53
+    4300100: group6_pCube53
+    4300102: group8_pCube62
+    4300104: group8_pCube61
+    4300106: group8_pCube60
+    4300108: group8_pCube59
+    4300110: group8_pCube58
+    4300112: group8_pCube57
+    4300114: group8_pCube56
+    4300116: group8_pCube55
+    4300118: group8_pCube54
+    4300120: group8_pCube53
+    4300122: group7_pCube53
+    4300124: group6_pCube53
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

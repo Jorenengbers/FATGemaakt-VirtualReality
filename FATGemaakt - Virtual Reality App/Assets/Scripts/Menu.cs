@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VR;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour {
 
@@ -17,7 +18,11 @@ public class Menu : MonoBehaviour {
 	}
 
 	public void openVR(){
-		Application.LoadLevel("VR-interface-demo");
+		SceneManager.LoadScene("VR-interface-demo");
+	}
+
+	public void mapVR(){
+		SceneManager.LoadScene("GameController");
 	}
 
 

@@ -21,3 +21,6 @@
 /Users/Jorenengbers1/Documents/1_Studie/Kunst en Techniek (Saxion)/4.Studiejaren/2.Jaar 02/Periode 04/Virtual Reality experience/FATGemaakt-VirtualReality/FATGemaakt - Virtual Reality App/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/Jorenengbers1/Documents/1_Studie/Kunst en Techniek (Saxion)/4.Studiejaren/2.Jaar 02/Periode 04/Virtual Reality experience/FATGemaakt-VirtualReality/FATGemaakt - Virtual Reality App/obj/Debug/Assembly-CSharp.dll
 /Users/Jorenengbers1/Documents/1_Studie/Kunst en Techniek (Saxion)/4.Studiejaren/2.Jaar 02/Periode 04/Virtual Reality experience/FATGemaakt-VirtualReality/FATGemaakt - Virtual Reality App/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/Jorenengbers1/Documents/1_Studie/Kunst en Techniek (Saxion)/4.Studiejaren/2.Jaar 02/Periode 04/Virtual Reality experience/FATGemaakt-VirtualReality/FATGemaakt - Virtual Reality App/Temp/bin/Debug/Mapbox.Json.dll
+/Users/Jorenengbers1/Documents/1_Studie/Kunst en Techniek (Saxion)/4.Studiejaren/2.Jaar 02/Periode 04/Virtual Reality experience/FATGemaakt-VirtualReality/FATGemaakt - Virtual Reality App/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/Jorenengbers1/Documents/1_Studie/Kunst en Techniek (Saxion)/4.Studiejaren/2.Jaar 02/Periode 04/Virtual Reality experience/FATGemaakt-VirtualReality/FATGemaakt - Virtual Reality App/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
