@@ -17,15 +17,25 @@ public class Menu : MonoBehaviour {
 		
 	}
 
+	public void openProfessorUitleg1(){
+		SceneManager.LoadScene("Start01");
+	}
+
 	public void openVR(){
 		SceneManager.LoadScene("VR-interface-demo");
 	}
 
-	public void mapVR(){
-		SceneManager.LoadScene("GameController");
+	public void openNamefield(){
+		SceneManager.LoadScene("Start02");
 	}
 
+	public void openProfessorUitleg2(){
+		SceneManager.LoadScene("Start03");
+	}
 
+	public void openMap(){
+		SceneManager.LoadScene("Map-demo2");
+	}
 
 
 }

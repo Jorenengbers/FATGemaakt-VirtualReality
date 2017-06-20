@@ -36,14 +36,13 @@ namespace Mapbox.Unity.MeshGeneration
 		/// 
 		/// 
 
-
+		private static MapController _instance ;
 
 
         public void Awake()
         {
             MapVisualization.Initialize(MapboxAccess.Instance);
             _tiles = new Dictionary<Vector2, UnityTile>();
-
 
         }
 

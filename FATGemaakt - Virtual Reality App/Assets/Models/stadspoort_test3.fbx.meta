@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 43072d1ddaaa140bda42f8e0190ddda1
+timeCreated: 1497439339
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: clock_Back
+    100002: clock_Front
+    100004: dak
+    100006: dak_dome
+    100008: dak_L
+    100010: dak_R
+    100012: dak_top
+    100014: deur
+    100016: dome_base
+    100018: dome_underground
+    100020: gebouw
+    100022: kleinRaam_1
+    100024: kleinRaam_2
+    100026: kleinRaam_3
+    100028: kleinRaam_4
+    100030: poort_Back
+    100032: poort_Front
+    100034: raam_1
+    100036: raam_3
+    100038: side_building2
+    100040: //RootNode
+    100042: top_vierkant
+    100044: topdak_base
+    400000: clock_Back
+    400002: clock_Front
+    400004: dak
+    400006: dak_dome
+    400008: dak_L
+    400010: dak_R
+    400012: dak_top
+    400014: deur
+    400016: dome_base
+    400018: dome_underground
+    400020: gebouw
+    400022: kleinRaam_1
+    400024: kleinRaam_2
+    400026: kleinRaam_3
+    400028: kleinRaam_4
+    400030: poort_Back
+    400032: poort_Front
+    400034: raam_1
+    400036: raam_3
+    400038: side_building2
+    400040: //RootNode
+    400042: top_vierkant
+    400044: topdak_base
+    2300000: clock_Back
+    2300002: clock_Front
+    2300004: dak_dome
+    2300006: dak_L
+    2300008: dak_R
+    2300010: dak_top
+    2300012: deur
+    2300014: dome_base
+    2300016: dome_underground
+    2300018: kleinRaam_1
+    2300020: kleinRaam_2
+    2300022: kleinRaam_3
+    2300024: kleinRaam_4
+    2300026: poort_Back
+    2300028: poort_Front
+    2300030: raam_1
+    2300032: raam_3
+    2300034: side_building2
+    2300036: top_vierkant
+    2300038: topdak_base
+    3300000: clock_Back
+    3300002: clock_Front
+    3300004: dak_dome
+    3300006: dak_L
+    3300008: dak_R
+    3300010: dak_top
+    3300012: deur
+    3300014: dome_base
+    3300016: dome_underground
+    3300018: kleinRaam_1
+    3300020: kleinRaam_2
+    3300022: kleinRaam_3
+    3300024: kleinRaam_4
+    3300026: poort_Back
+    3300028: poort_Front
+    3300030: raam_1
+    3300032: raam_3
+    3300034: side_building2
+    3300036: top_vierkant
+    3300038: topdak_base
+    4300000: dome_base
+    4300002: dome_underground
+    4300004: top_vierkant
+    4300006: topdak_base
+    4300008: clock_Front
+    4300010: clock_Back
+    4300012: poort_Front
+    4300014: poort_Back
+    4300016: raam_1
+    4300018: kleinRaam_2
+    4300020: kleinRaam_1
+    4300022: kleinRaam_3
+    4300024: kleinRaam_4
+    4300026: raam_3
+    4300028: side_building2
+    4300030: deur
+    4300032: dak_L
+    4300034: dak_R
+    4300036: dak_top
+    4300038: dak_dome
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

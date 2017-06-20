@@ -2,6 +2,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class VirtualRealityRaycasting : MonoBehaviour {
 
@@ -14,9 +15,15 @@ public class VirtualRealityRaycasting : MonoBehaviour {
 	public Transform Center2;
 	public Transform LoadingBar2;
 
+	public Canvas Target;
+
 	public Transform InterfaceCanvas2;
 
 	public Canvas DialogBox;
+
+	bool exitVRScene;
+	bool enterDialog;
+	bool calibrate;
 
 
 	[SerializeField] private float currentAmount;
@@ -34,7 +41,14 @@ public class VirtualRealityRaycasting : MonoBehaviour {
 		DialogBox.gameObject.SetActive(false);
 
 		currentAmount = 0;
+
+
+		exitVRScene = false;
+		enterDialog = false;
+		calibrate = false;
 	}
+
+
 
 
 //	void Start()
@@ -45,16 +59,33 @@ public class VirtualRealityRaycasting : MonoBehaviour {
 	void Update()
 	{
 
+		//Interactable Layer Raycast
 		Ray ray = camera.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
 		RaycastHit hit;
-		if (Physics.Raycast (ray, out hit) && hit.collider.gameObject.CompareTag("Interactable")) {
+		if (Physics.Raycast (ray, out hit) && hit.collider.gameObject.CompareTag ("Interactable")) {
 			print ("I'm looking at " + hit.transform.name);
-			VisualCircleLoader();
+			VisualCircleLoader ();
+			enterDialog = true;
 			//Destroy(hit.transform.gameObject);
 		} else {
-			print ("I'm looking at nothing!");
-			ResetVisualCircleLoader();
+			if (Physics.Raycast (ray, out hit) && hit.collider.gameObject.CompareTag ("ExitVR")) {
+
+				print ("I'm looking at " + hit.transform.name);
+				VisualCircleLoader ();
+				exitVRScene = true;
+				
+			} else { 
+				if (Physics.Raycast (ray, out hit) && hit.collider.gameObject.CompareTag ("Calibrate")) {
+					print ("I'm looking at " + hit.transform.name);
+					VisualCircleLoader ();
+					calibrate = true;
+				} else {
+					print ("I'm looking at nothing!");
+					ResetVisualCircleLoader ();
+				}
+			}
 		}
+
 
 
 
@@ -94,11 +125,32 @@ public class VirtualRealityRaycasting : MonoBehaviour {
 		LoadingBar.GetComponent<Image>().fillAmount = currentAmount / 100;
 		LoadingBar2.GetComponent<Image>().fillAmount = currentAmount / 100;
 
-		if(currentAmount >= 100){
+		if(currentAmount >= 100 && enterDialog ==  true){
 			Debug.Log ("100");
-			//Application.LoadLevel("Map-demo2");
-
 			DialogBox.gameObject.SetActive(true);
+			Target.gameObject.SetActive(false);
+			enterDialog = false;
+		}
+
+
+
+		if(currentAmount >= 100 && exitVRScene == true){
+			Debug.Log ("100");
+
+			exitVRScene = false;
+			SceneManager.LoadScene("Map-demo2");
+
+		}
+
+
+
+		if(currentAmount >= 100 && calibrate == true){
+			Debug.Log ("100");
+		
+			GameObject go = GameObject.Find("VRCamera");
+			GyroMovement other = (GyroMovement) go.GetComponent(typeof(GyroMovement));
+			other.CalibrateYAngle();
+			calibrate = false;
 		}
 	}
 

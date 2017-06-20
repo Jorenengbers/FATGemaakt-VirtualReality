@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VR;
@@ -6,9 +7,12 @@ using UnityEngine.SceneManagement;
 
 public class VR : MonoBehaviour {
 
+	public Canvas TurnDeviceMessageCanvas;
+
 	// Use this for initialization
 	void Start () {
 		Screen.orientation = ScreenOrientation.LandscapeLeft;
+
 	}
 	
 	// Update is called once per frame
@@ -18,12 +22,16 @@ public class VR : MonoBehaviour {
 
 	public void openSonar(){
 		SceneManager.LoadScene("Map-demo2");
-		SceneManager.UnloadScene("VR-interface-demo");
+		SceneManager.UnloadScene("StadspoortVR");
 	}
 
 	public void openVR(){
-		SceneManager.LoadScene("VR-interface-demo");
+		SceneManager.LoadScene("StadspoortVR");
 		SceneManager.UnloadScene("Map-demo2");
+	}
+
+	public void closeTurnDeviceMessage(){
+		TurnDeviceMessageCanvas.gameObject.SetActive(false);
 	}
 
 }
